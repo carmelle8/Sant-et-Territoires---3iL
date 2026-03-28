@@ -1,1 +1,13 @@
-lakehouse/bronze/liste-ps-*.csv
+data/bronze/
+
+# Ignorer le stockage de MinIO et Postgres
+minio-data/
+postgres-data/
+
+# Ignorer les environnements virtuels Python
+venv/
+.venv/
+__pycache__/
+
+# Ignorer les logs Airflow
+logs/

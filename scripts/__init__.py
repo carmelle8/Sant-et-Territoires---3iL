@@ -1,0 +1,1 @@
+#pour modulariser notre code. Cela permet à notre DAG Airflow d'importer nos scripts comme des bibliothèques réutilisables, respectant ainsi les standards de développement Python.
