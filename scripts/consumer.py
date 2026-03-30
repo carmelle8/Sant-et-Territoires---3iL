@@ -7,12 +7,14 @@ import json
 from datetime import datetime
 
 def run_consumer():
+    # ✅ CORRECTION : port 29092 (port INTERNE Docker, entre containers)
+    # ❌ AVANT : kafka:9092  → c'est le port EXTERNE (pour ton PC seulement)
     consumer = KafkaConsumer(
         'topic-sante-brut',
-        bootstrap_servers=['kafka:9092'],  # port interne Docker
+        bootstrap_servers=['kafka:29092'],
         auto_offset_reset='earliest',
         value_deserializer=lambda x: json.loads(x.decode('utf-8')),
-        consumer_timeout_ms=15000  # s'arrête après 15s sans message
+        consumer_timeout_ms=30000  # ✅ augmenté à 30s pour les gros fichiers
     )
 
     s3 = boto3.client(

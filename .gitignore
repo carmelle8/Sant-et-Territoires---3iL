@@ -11,3 +11,9 @@ __pycache__/
 
 # Ignorer les logs Airflow
 logs/
+
+data brute/
+data cleaned/
+data brute.zip
+data cleaned.zip
+data/
