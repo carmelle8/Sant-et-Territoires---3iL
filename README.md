@@ -9,9 +9,9 @@
 
 | Membre | Rôle principal |
 |--------|---------------|
-| Zélie Carmelle | Data Engineering & Orchestration |
-| [Membre 2] | Machine Learning & Analyse |
-| [Membre 3] | Visualisation & Documentation |
+| Zélie Kaam | Data Engineering & Orchestration |
+| Soussi Malek | Machine Learning & Analyse |
+| Jeef Temo | Visualisation & Documentation |
 
 ---
 
