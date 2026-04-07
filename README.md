@@ -270,9 +270,9 @@ git commit -m "[docs] : mise à jour README avec architecture finale"
 - [x] Pipeline Silver : nettoyage, jointures, feature engineering
 - [x] Pipeline Gold : clustering K-Means + XGBoost
 - [x] Orchestration Airflow (DAG complet)
-- [ ] Dashboard Streamlit (en cours)
-- [ ] Visualisation carte des déserts médicaux
-- [ ] Préparation soutenance
+- [x] Dashboard Streamlit (en cours)
+- [x] Visualisation carte des déserts médicaux
+- [x] Préparation soutenance
 
 ---
 
